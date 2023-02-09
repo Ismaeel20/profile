@@ -1,0 +1,82 @@
+
+img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  padding: 1%;
+}
+
+h1, h2{
+  color: black;
+}
+
+body  {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  font-size: medium;
+  background-color: black;
+  color: black;
+}
+
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/*Icons */
+.btn-white  {
+  color: rgb(6, 6, 6);
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 50px;
+  font-weight: 800px;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 8px 16px;
+}
+
+#insta_purple:hover {
+  background-color: rgb(147, 52, 166);
+}
+#snap_yellow:hover {
+  background-color: yellow;
+}
+
+.list_in_line {
+  list-style-type: none;
+}
+
+
+/*div*/
+.card-black {
+  background-color: rgb(254, 253, 253);
+  box-shadow: 0px 0px 20px rgb(247, 245, 243);
+  border: 1px rgb(11, 11, 11);
+  margin:30px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+/*media*/
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
